@@ -48,3 +48,9 @@ python3 build_roi_template.py
 
 เดิมอยู่เป็น branch ใน repo `tsp-wheel` (กิจกรรมหมุนวงล้อ) แยกออกมาเป็นโปรเจกต์ของตัวเอง
 พร้อมประวัติ commit เดิมครบทั้ง 3 commit — ไฟล์ถูกย้ายจากโฟลเดอร์ `roi-laundromat/` ขึ้นมาไว้ที่ root
+
+## โปรเจกต์ที่เกี่ยวข้อง
+
+ตัวเลขในชีต `F_SERVICE` (ราคาแพ็กเกจ PM รายปี) มาจาก
+[`biz-pm-pricing-tool`](https://github.com/zitemzon/biz-pm-pricing-tool)
+— ถ้าปรับราคาที่นั่น ต้องมาปรับที่ `F_SERVICE` ตามด้วย
